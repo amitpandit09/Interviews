@@ -1,5 +1,11 @@
 # Interviews
+Leetcode
 
 Problem Statement
+1192. Critical Connections in a Network
 
-<iframe src="https://leetcode.com/playground/xxQNoSeB/shared" frameBorder="0" width="400" height="300"></iframe>
+There are n servers numbered from 0 to n-1 connected by undirected server-to-server connections forming a network where connections[i] = [a, b] represents a connection between servers a and b. Any server can reach any other server directly or indirectly through the network.
+
+A critical connection is a connection that, if removed, will make some server unable to reach some other server.
+
+Return all critical connections in the network in any order.
